@@ -21,7 +21,7 @@ public:
 
 	void SetHWND( uintptr_t handle );
 	void AssociateContext( bool show );
-	long GetCursorPos();
+	int32_t GetCursorPos();
 	std::wstring GetCompositionString( DWORD mask );
 	size_t GetKeyboardLayout();
 	bool NotifyIME( DWORD dwAction, DWORD dwIndex, DWORD dwValue );

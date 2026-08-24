@@ -2,4 +2,5 @@
 
 #pragma once
 
+#include <string>
 #include <BlueExposure.h>
