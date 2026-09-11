@@ -53,7 +53,7 @@ void Ime::AssociateContext( bool show )
 	ImeWrapper::ImmAssociateContext( m_window, show ? m_imc : nullptr );
 }
 
-long Ime::GetCursorPos()
+int32_t Ime::GetCursorPos()
 {
 	return ImeWrapper::ImmGetCompositionStringW( m_imc, GCS_CURSORPOS, nullptr, 0 );
 }
