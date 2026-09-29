@@ -39,7 +39,7 @@ class TestIME(unittest2.TestCase):
 
     def testGetRefCounts(self):
         ret = self.ime.GetRefCounts()
-        self.assertTupleEqual(ret, (2L, 1))
+        self.assertTupleEqual(ret, (2, 1))
 
     def testIsIME(self):
         ret = self.ime.IsIME()
